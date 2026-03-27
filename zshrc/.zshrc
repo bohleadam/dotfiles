@@ -48,7 +48,7 @@ autoload -Uz compinit && compinit
 
 zinit cdreplay -q
 
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/bohlea-mac.toml)"
+eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/bohleadam/dotfiles-devpod/refs/heads/main/bohlea-mac.toml)"
 
 # Keybindings
 bindkey -e
